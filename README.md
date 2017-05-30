@@ -1,15 +1,30 @@
-## Project Description  
+Adventurous Abodes
+=====================
 
-A Project for the Turing School of Software and Design where a team of 4 students converted an existing merchant codebase into a multi-tenant hotel booking platform.
+[Adventurous Abodes on Heroku](http://adventurous-abodes.herokuapp.com/)
 
-## Live App  
+Turing School Project
 
-http://adventurous-abodes.herokuapp.com/  
+After we inherited an ecommerce codebase from another team, we pivoted to a multi tenancy Air BnB-esque site. Users can 
+sign up as "hosts" and rent out their property, or search properties available for rent.
 
-## To run locally
+![](https://dl.dropboxusercontent.com/u/4260734/adventurous-abodes.png)
 
-`bundle`
+### technical overview
 
-`rake db:create db:migrate db:seed`
+* Rails
+* JavaScript
+* jQuery
+* Oauth login
+* MiniTest
+* Mocha
+* Capybara
+* PostgreSQL
+* Materialize
 
-`rails s`
+### instructions
+
+* clone the project
+* run `bundle install` to install the required gems
+* set up and seed the database with`rake db:create db:migrate db:seed`
+* start the server with `rails s` and visit `http://localhost:8080`
