@@ -7,7 +7,7 @@ After we inherited an ecommerce codebase from another team, we pivoted to a Air 
 ![](https://dl.dropboxusercontent.com/u/4260734/adventurous-abodes.png)
 
 ### Features
-* **Multi tenancy:** Users can sign up to rent out their properties or search and choose properties available to rent
+* **Multi tenancy:** Admin can manage hosts and renters, hosts can sign up to rent out their properties and renters can look for places to stay
 * **Calendar:** JavaScript calendar checks availabilty of properties based on other reservations
 * **Basic cart functionality** 
 
