@@ -1,16 +1,17 @@
-Adventurous Abodes
-=====================
+# Adventurous Abodes
 
-[Adventurous Abodes on Heroku](http://adventurous-abodes.herokuapp.com/)
+[Live Version](http://adventurous-abodes.herokuapp.com/)
 
-Turing School Project
-
-After we inherited an ecommerce codebase from another team, we pivoted to a multi tenancy Air BnB-esque site. Users can 
-sign up as "hosts" and rent out their property, or search properties available for rent.
+After we inherited an ecommerce codebase from another team, we pivoted to a Air BnB-esque site. Have you ever wanted to stay in a treehouse, igloo or even a spaceship? Now you can, with Adventurous Abodes!
 
 ![](https://dl.dropboxusercontent.com/u/4260734/adventurous-abodes.png)
 
-### technical overview
+### Features
+* **Multi tenancy:** Users can sign up to rent out their properties or search and choose properties available to rent
+* **Calendar:** JavaScript calendar checks availabilty of properties based on other reservations
+* **Basic cart functionality** 
+
+### Tools
 
 * Rails
 * JavaScript
@@ -22,9 +23,13 @@ sign up as "hosts" and rent out their property, or search properties available f
 * PostgreSQL
 * Materialize
 
-### instructions
+---
+### To Run Locally
 
 * clone the project
 * run `bundle install` to install the required gems
 * set up and seed the database with`rake db:create db:migrate db:seed`
-* start the server with `rails s` and visit `http://localhost:8080`
+* start the server with `rails s` and visit `http://localhost:3000`
+
+---
+Turing School Project
